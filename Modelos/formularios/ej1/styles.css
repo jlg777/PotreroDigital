@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, #00f, #0f0);
+    /* azul a verde */
+    background-size: 200% 200%;
+    /* importante para que se vea el movimiento */
+    animation: gradientGB 15s ease infinite;
+    overflow: hidden;
+    background: url('https://picsum.photos/1200/800')
+}
+
+@keyframes gradientGB {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+.glass-container {
+    position: relative;
+    width: 380px;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.4);
+    z-index: 10;
+    overflow: hidden;
+}
