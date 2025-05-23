@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+
+}
+
+.container {
+    max-width: 85%;
+    margin: 20px auto
+}
+
+.container .title {
+    font-size: 25px;
+    background-color: #f0f0f0; 
+    color: #000;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.container .images-container {
+    columns: 3 250px;
+    gap: 15px;
+
+}
+
+.container .images-container img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container .images-container img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
