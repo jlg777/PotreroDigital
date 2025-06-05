@@ -1,0 +1,77 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
+
+/*Variable CSS*/
+:root {
+  --font1: 'DM Sans', sans-serif;
+  --font2: 'Space Grotesk', sans-serif;
+  --purple-500: #4c1282;
+  --purple-400: #6b19b7;
+  --purple-300: #8a2be2;
+  --purple-200: #b172ec;
+  --purple-100: #d8b8f5;
+  --green-200: #1fc16b;
+  --green-100: #84ebb4;
+  --yelow-100: #ffdb43;
+  --white-100: #fff;
+  --black-500: #1e1e1e;
+
+  --font-xl-desktop: 2.5em;
+  --font-lg-desktop: 2.125em;
+  --font-md-desktop: 1.5em;
+  --font-sm-desktop: 1.25em;
+  --font-xs-desktop: 1em;
+}
+
+/*Reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  font-family: var(--font2);
+}
+
+a {
+  font-weight: 500;
+  font-family: var(--font2);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: var(--font-xl-desktop);
+}
+
+h2 {
+  font-size: var(--font-lg-desktop);
+}
+
+h3 {
+  font-size: var(--font-md-desktop);
+}
+
+p {
+  font-family: var(--font1);
+}
+
+span {
+  font-family: var(--font2);
+  font-weight: 700;
+}
+
+/*Body*/
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--purple-100);
+  width: 100%;
+  height: auto;
+  padding: 4px;
+}
