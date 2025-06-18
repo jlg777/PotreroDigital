@@ -268,10 +268,10 @@ body {
 
 .card-3 {
   background-color: var(--purple-200);
-  height: 606px;
+  height: 605px;
 }
 
-.card-3 {
+.card-3 h2 {
   position: relative;
   color: var(--purple-500);
   text-wrap: balance;
@@ -294,4 +294,18 @@ body {
   width: 260px;
 }
 
-/*min 27:30*/
+.card-3 p {
+  position: absolute;
+  top: 250px;
+  left: 80px;
+  z-index: 10;
+  padding: 16px;
+  background-color: var(--green-100);
+  border: 4px solid var(--purple-300);
+  border-radius: 24px;
+  width: 280px;
+  font-weight: bold;
+  color: var(--black-500);
+}
+
+/*min 28:20*/
