@@ -1,6 +1,6 @@
 <div>
   <p style="text-align:center">
-    <img align="center" src="./assets/images/programador.png" alt="JuveYell" width="300px">
+    <img align="center" src="./assets/img/programador.png" alt="JuveYell" width="300px">
   </p>
 </div>
 <h2 align="center" style="color:#CD5C5C">JLG'777'
